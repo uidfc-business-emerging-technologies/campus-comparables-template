@@ -13,7 +13,8 @@ This repository is your starting point for the Campus Comps case. It already hol
 | Path | What it is |
 |---|---|
 | `index.html` | A placeholder page. Replace it with your site. |
-| `data/college_town_home_sales.csv` | The dataset, version 1.0: 35,442 rows. Don't edit it. |
+| `data/college_town_home_sales.csv` | The dataset, version 1.0: 35,442 rows. Your site reads this file. |
+| `data/college_town_home_sales.xlsx`, `.sqlite`, `.duckdb`, `.parquet` | The same data in Excel, SQLite, DuckDB and Parquet formats, with identical values |
 | `docs/data_description_sheet.md` | What every column means, and five problems in the data |
 | `AGENTS.md` | Project instructions for your AI coding agent |
 | `AGENT_LOG.md` | Your agent log |
@@ -21,7 +22,7 @@ This repository is your starting point for the Campus Comps case. It already hol
 | `checks/` | Your separate checks of the site's numbers |
 | `.nojekyll` | Tells GitHub Pages to publish every file as it is. Don't delete it. |
 
-The dataset is also available as Excel, SQLite, DuckDB and Parquet files, with identical values, from this template's [v1.0 release](https://github.com/uidfc-business-emerging-technologies/campus-comparables-template/releases/tag/v1.0). Your site needs only the CSV file, but the other formats can make checking numbers easier, for example with a SQL query on the SQLite file.
+Don't edit any of the five dataset files. Your site needs only the CSV file. The other formats make it easier to check numbers a second way, for example with a pivot table in Excel or a SQL query on the SQLite file. In SQLite and DuckDB, the table is named `home_sales`.
 
 ## What this site is for
 
