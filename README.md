@@ -1,0 +1,1 @@
+# campus-comparables-template
