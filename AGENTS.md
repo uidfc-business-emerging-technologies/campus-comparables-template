@@ -11,4 +11,4 @@ Rules:
 - Work in small steps. Before a large change, describe your plan and wait for my approval.
 - After each change, tell me what you changed and how I can check it.
 - Never put passwords, API keys or other secrets in any file.
-- Keep the .nojekyll file. It makes GitHub Pages publish every file as it is.
+- .github/workflows/pages.yml publishes the repository's files to GitHub Pages, as they are, each time main is pushed. Don't add a build step to it.
